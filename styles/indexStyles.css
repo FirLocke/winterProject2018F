@@ -1,0 +1,57 @@
+/* I found it easier to keep track of my css by using multiple pages, 
+so I have these pages just to customize the main sections of the html pages*/
+
+.intro {
+  grid-area: intro;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.introImage1{
+  grid-area: introImage1;
+}
+
+.introImage2{
+  grid-area: introImage2;
+}
+
+.intro2{
+  grid-area: intro2;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.finMessage {
+  grid-area: finMessage;
+}
+
+.indexMain {
+  color: #FCF5F9;
+  background-color: #02789C;
+  border-radius: 2px;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+hr {
+  color:white;
+}
+
+
+                    @media screen and (min-width: 680px) {
+
+                      .indexMain {
+                        max-width: 1164px;
+                        margin: auto;
+                        margin-top: 0.5em;
+                        margin-bottom: 0.5em;
+                        display: grid;
+                        grid-template-columns: repeat(12, 1fr);
+                        grid-template-areas:
+                        "introImage1 introImage1 introImage1 introImage1 introImage1 ... ... introImage2 introImage2 introImage2 introImage2 introImage2"
+                        "intro intro intro intro intro ... ... intro2 intro2 intro2 intro2 intro2"
+                        "finMessage finMessage finMessage finMessage finMessage finMessage finMessage finMessage finMessage finMessage finMessage finMessage";
+                      }
+
+}

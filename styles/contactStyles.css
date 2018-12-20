@@ -1,0 +1,19 @@
+/* I found it easier to keep track of my css by using multiple pages,
+so I have these pages just to customize the main sections of the html pages*/
+
+main{
+  max-width: 320px;
+  color: #FCF5F9;
+background-color: #02789C;
+border-radius: 1px;
+padding: 1em;
+margin-left: 1em;
+margin-right: 1em;
+}
+
+@media screen and (max-width: 350px) {
+
+textarea, input{
+  width:90%;
+}
+}

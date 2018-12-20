@@ -1,0 +1,63 @@
+/* I found it easier to keep track of my css by using multiple pages,
+so I have these pages just to customize the main sections of the html pages*/
+
+.faq1{
+  color: #FCF5F9;
+  background-color: #02789C;
+  border-radius: 1px;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  grid-area: faq1;
+}
+
+.faq2{
+  color: #FCF5F9;
+  background-color: #02789C;
+  border-radius: 1px;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  grid-area: faq2;
+}
+
+.faq3{
+  color: #FCF5F9;
+  background-color: #02789C;
+  border-radius: 1px;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  grid-area: faq3;
+}
+
+.faq4{
+  color: #FCF5F9;
+  background-color: #02789C;
+  border-radius: 1px;
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  grid-area: faq4;
+}
+
+.faqMain {
+
+}
+
+@media screen and (max-width: 855px) {
+
+
+
+}
+
+@media screen and (min-width: 1192px) {
+
+  .faqMain{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "faq1 faq2 faq3 faq4";
+  }
+
+}
